@@ -2,7 +2,7 @@
 
 namespace Alura\Solid\Model;
 
-class Curso implements Pontuavel
+class AluraLive extends Video implements Pontuavel
 {
     public function recuperarPontuacao(): int
     {
